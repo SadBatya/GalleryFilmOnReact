@@ -1,0 +1,29 @@
+.film__card {
+  width: 300px;
+  height: 560px;
+  margin-bottom: 80px;
+}
+
+.film__name {
+  font-size: 20px;
+  color: black;
+}
+
+.film__poster {
+  border-radius: 10px;
+}
+
+.film__like {
+  width: 20px;
+  height: 20px;
+}
+
+.favourite {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}

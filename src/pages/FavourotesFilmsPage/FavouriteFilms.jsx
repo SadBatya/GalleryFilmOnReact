@@ -1,9 +1,9 @@
-import Films from "../../components/Films/Films";
-import MainLayout from "../../components/layouts/MainLayout/MainLayout";
+import FilmCard from '../../components/FilmCard';
+import MainLayout from '../../components/MainLayout';
 export default function FavouriteFilms() {
   return (
     <MainLayout page={'Favourite Films'}>
-      <Films films={[]}/>
+      <FilmCard films={[]} />
     </MainLayout>
   );
 }

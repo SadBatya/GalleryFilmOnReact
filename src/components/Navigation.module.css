@@ -1,3 +1,7 @@
+.navigation {
+  margin: 50px;
+}
+
 .navigation a {
   color: black;
   text-decoration: none;
