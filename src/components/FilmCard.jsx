@@ -2,7 +2,6 @@ import styles from './FilmCard.module.css';
 import HeartWhite from './../svg/heart-white.svg';
 import HeartBlack from './../svg/heart-black.svg';
 
-
 export default function FilmCard({ name, poster, year, favourite, onTopFavourite, imdbID }) {
   return (
     <div className={styles.film__card}>
@@ -16,7 +15,7 @@ export default function FilmCard({ name, poster, year, favourite, onTopFavourite
       <div className={styles.favourite}
         onClick={() => onTopFavourite(imdbID)}
       >
-        {favourite ?  <img className={styles.film__like} src={HeartWhite} /> : <img className={styles.film__like} src={HeartBlack} />}
+        {favourite ?  <img className={styles.film__like} src={HeartBlack} /> : <img className={styles.film__like} src={HeartWhite} />}
       </div>
     </div>
   );
